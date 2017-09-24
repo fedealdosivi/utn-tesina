@@ -1,8 +1,78 @@
-1 definición del problema: 
-Sobre que es el proyecto?
-Que permite?
-Por que se eligió?
-Quw cosas va a tener?
-Que cosas vas a usar de programación?
+1 Definición del problema: 
 
-2
+Nuestro proyecto tiene como objetivo el desarrollo de un sistema para el control electronico de un chaleco vial, con el cual se podra no solo controlar las luces de giro presentes en el mismo, sino que tambien permitira realizar un seguimiento de diversos datos a lo largo del recorrido en que se uso el chaleco.
+
+Se eligio el proyecto, porque permite abarcar diferentes campos de la programacion, que nosotros personalmente encontramos interesantes. En primera instancia, podremos incursionar en el campo de la electronica de la mano de Arduino, y a su vez poder interconectarlo con diferentes servicios y aplicaciones, tanto web como posiblemente moviles (Android, Smartwatch).
+
+2-Alcance y limitaciones
+
+EL proyecto va a ser desarrollado desde cero, siendo el objetivo final producir un chaleco con luces de giro, que obtenga informacion sobre el uso del mismo, y que estos datos sean procesados y almacenados por el sistema. Para ello nuestro proyecto contara con los siguientes componentes:
+
+-Arduino
+-Java
+-Javascript
+-VueJs
+-NodeJs
+-Materialize
+-MysqlServer
+
+Se establece como limitacion, que el uso de los componentes nombrados deben ser utilizados en las versiones en que se llevo a cabo el desarrollo.
+
+3-Marco de referencia
+
+El desarrollo del proyecto surge de la necesidad de poder brindarle al ciclista marplatense mayor seguridad a la hora de realizar esta actividad, y a su vez que pueda obtener informacion del recorrido que realizo con el mismo por medio del sistema a desarrollar.
+
+-Entorno de desarrollo
+
+.Windows 7 o superior
+.Linux Ubuntu 16.04
+.Sublime TExt 3 o superior
+.Webstorm
+.Android Studio
+.Arduino IDE
+.Vue Devtools
+.Git 2.10 o superior
+
+-Entorno de pruebas
+
+.PC(Linux, WIndows)
+a-Google CHrome
+b-Mozilla Firefox
+c-Microsoft Edge
+
+.Android
+a-apk del sistema
+b-Google Chrome
+c-Mozilla Firefox
+d-UCBrowser
+
+.Servidor de aplicaciones
+a-Apache
+b-Mysql
+c-NodeJs
+d-Git
+
+4-Software a entregar
+
+ El sistema permitira al usuario poder registrar su chaleco en el mismo, asociandolo con un nombre y apellido. Ofrecera al usuario la informacion mas relevante de todos los recorridos que haya realizado durante el uso del chaleco y permitira su comparacion.
+ Existiran varias formas de poder realizar el seguimiento del chaleco, por medio de una aplicacion web, a traves de la aplicacion de Android o tambien desde un dispositivo smartwatch.
+
+5-Documentacion a entregar
+
+Se entregara documentacion con todos los fallos detectados brindando en detalle cual fue el problema ocurrido, fecha en que se descubrieron y su solucion. Se entregara un manual de usuario, para el uso del chaleco y un videotutorial para el uso de los sistemas, tanto web como mobile.
+
+6- Bibliografia
+
+-"Android Development" Head First. Editorial: O'really.
+-"Dessign Patterns" Head First. Editorial: O'really.
+-http://materializecss.com/ - Documentacion oficial del Framework.
+-https://developer.android.com/studio/intro/index.html - Documentacion oficial de Android Studio.
+-https://vuejs.org/v2/guide/ - Documentacion oficial Vue.js
+
+
+
+
+
+
+
+
